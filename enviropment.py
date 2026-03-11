@@ -18,22 +18,20 @@ for i in range(m):
 
 
 
+def money(a, b):
+    return a + b
+
+
+
+print(money(3, 55))
 
 
 
 
-def property(line, path):
-    s = 0
-    while line < path:
-        line += 1
-        s += 1
-    return f"{s} количество шагов"
+def solutions():
+     print("commits")
 
 
-
-
-
-
-
-print(property(3, 12))
+for i in range(4):
+     solutions()
 
