@@ -18,3 +18,22 @@ for i in range(m):
 
 
 
+
+
+
+
+def property(line, path):
+    s = 0
+    while line < path:
+        line += 1
+        s += 1
+    return f"{s} количество шагов"
+
+
+
+
+
+
+
+print(property(3, 12))
+
