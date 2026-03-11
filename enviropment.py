@@ -35,3 +35,4 @@ def solutions():
 for i in range(4):
      solutions()
 
+print("summ")
